@@ -1515,7 +1515,7 @@ body::-webkit-scrollbar{
     z-index: 2;
     white-space: nowrap;
 }
-
+/* 
 #last-div{
     height: 100vh;
     width: 100vw;
@@ -1538,8 +1538,40 @@ body::-webkit-scrollbar{
     background-color: #d5a7b4;
     border-radius: 50%;
     /* border-top-left-radius: 50%;
-    border-top-right-radius: 50%; */
+    border-top-right-radius: 50%; 
 
+
+
+#last-circle h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ */
+
+ #last-div {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last-circle {
+    height: 20vw;
+    width: 20vw;
+    background-color: #d5a7b4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last-circle h1 {
+    margin: 0;
+    font-size: 15px; /* Remove default margin */
 }
 
 

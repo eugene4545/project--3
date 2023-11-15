@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded",function(){
 var main = document.querySelector("#main");
 
 main.addEventListener("mousemove",function(elem){
-    curser.style.left = elem.x+"px";
+    curser.style.left = elem.x+"px"; 
     curser.style.top = elem.y+"px";
 
 });
@@ -490,7 +490,7 @@ main.addEventListener("mousemove",function(elem){
         tl4.to("#moving-row span",{
             left: "-250%",
             delay:8,
-            duration:5
+            duration:2
         
         },"flgg1")
         
